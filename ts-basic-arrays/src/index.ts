@@ -59,3 +59,5 @@ const result: number[] = number3
     .filter((n) => n >= 5)
     .map((n) => n * 2)
 console.log(result)
+//演習１１
+
