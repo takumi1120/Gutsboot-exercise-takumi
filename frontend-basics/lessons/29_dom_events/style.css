@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background-color: #f3f4f6;
+    color: #111827;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+}
+
+.title {
+    margin: 0 0 16px;
+    font-size: 26px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+    margin: 0 0 12px;
+    font-size: 18px;
+}
+
+.button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 12px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.button:hover {
+    background-color: #1d4ed8;
+}
+
+.secondary {
+    background-color: #6b7280;
+}
+
+.secondary:hover {
+    background-color: #4b5563;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.label {
+    font-weight: 700;
+}
+
+.hint {
+    margin: 8px 0 0;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.preview {
+    margin-top: 12px;
+    padding: 12px;
+    border: 1px dashed #d1d5db;
+    border-radius: 12px;
+    background-color: #f9fafb;
+}
+
+.preview-title {
+    margin: 0 0 6px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #374151;
+}
+
+.preview-text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.field.is-error .input {
+    border-color: #ef4444;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15);
+}
+
+.error {
+    margin: 8px 0 0;
+    color: #b91c1c;
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+.is-big {
+    color: #dc2626;
+    font-weight: 800;
+}
+
+.error {
+    color: #b91c1c;
+}
