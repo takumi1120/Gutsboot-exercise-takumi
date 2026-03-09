@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+
+body {
+    color: #f5f6f9e3;
+    background-color: #04c350df;
+}
+
+strong {
+    color: #dac71cdf
+}
+
+p {
+    color: red;
+    background-color: #442f6edf;
+    border: 5px solid red;
+}
+
+h1 {
+    border-bottom: 3px solid #333
+}
